@@ -1,7 +1,7 @@
 sm, sb = map(int, input().split())
-a = (sm + sb)//2
-b = sm - a
-if (sm + sb < 0) or (sm - sb < 0) or a < 0 or b < 0:
+if ((sm + sb) % 2 != 0) or (sm < sb):
   print('-1')
 else:
+  a = (sm + sb)//2
+  b = sm - a
   print(max([a,b]), min([a,b]))
