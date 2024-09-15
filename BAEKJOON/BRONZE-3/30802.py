@@ -8,4 +8,4 @@ for i in li:
   else:
     T_set += int(i/T) + 1
 print(T_set)
-print(int(sum(li)/P), sum(li)%P)
+print(int(sum(li)/P), sum(li)%P) 
