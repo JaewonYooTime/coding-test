@@ -9,3 +9,4 @@ for i in range(len(li)):
   elif i>0 and li[i] != 0:
     li_score.append(li[i]+li_score[i-1])
 print(sum(li_score))
+ 
