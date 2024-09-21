@@ -7,3 +7,4 @@ for i in range(N):
   elif Y == pos:
     pos = X
 print(pos)
+ 
