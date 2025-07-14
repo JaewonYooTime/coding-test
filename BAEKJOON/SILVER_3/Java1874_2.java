@@ -37,6 +37,7 @@ public class Java1874_2 {
                 stack.pop();
             } else result = false;
         }
+
         if(result) System.out.println(sb);
         else System.out.println("NO");
     }
